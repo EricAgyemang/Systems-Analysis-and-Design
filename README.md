@@ -78,5 +78,27 @@ The simple exercise above corresponds to the domain model diagram.  Create the c
 |Foreign key |Primary key of one tables that sits in another table to connect the second table to the first
 
 
+# Lab 5
+# Design Class Diagram & Sequence Diagram for Ethereum
+In this lab you practice creating sequence diagrams and design class diagrams.
+
+You will need to educate yourself about the [platform and the concept](https://ethereum.org/en/).
+
+Design Class Diagrams (DCD) and Sequence Diagrams (SD) are usually completed in tandem.  So here’s the work steps for you in this lab:
+1.	Research the platform and concept
+2.	Pick a core use case to model using sequence diagrams: a use case that is unique feature of this platform, don’t pick general use cases such as: “create account” , or “post on forum”
+3.	For you to be able to create an SD in GenMyModel, You must do a little bit work to create a DCD first. 
+4.	DCD doesn’t have to include all classes of Ethereum platform, but only the ones you need for the purpose of the specific use case. 
+5.	The reason for picking a ‘core’ use case is that your SD is more helpful and meaningful when you use it for a use case that’s not intuitively understandable by someone outside the specific domain (here Ethereum). 
+
+
+|Terms	|Description
+|-------|----------------------------------------
+|View layer	|The layer that is connecting the system to external word (actors, or other systems)
+|Domain layer (business logic layer)	|These are the classes you identify when you do domain modeling. They hold the information and logic of the work process in your organization/business.
+|Data access layer (haven’t discussed in class yet)	|Data access layer objects facilitate connection with database management systems
+|MVC objects	|Controllers or Handlers sit in between View layer objects and domain layer objects. MVC is one of many design patterns used in Object-Oriented design. For more information start by Googling: Design Patterns
+|Par, alt, opt, loop	|Specific features to use when you need to model, parallel work, if-then-else, if-then, or loops
+
 
 
