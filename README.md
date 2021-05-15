@@ -26,6 +26,22 @@ Pick 8-10 concepts that we have learned in the course so far. Connect them with 
 describe the nature of the connection.
 
 
+# Lab 3 
+# Iteration 1: Activity Diagram
+In this lab you practice create a simple activity diagram.
+An activity diagram shows the step required by the system (and modules inside it) to deliver a given feature to a group of actors.
 
+Practice in class: start by creating a simple activity diagram for one of the Wolfram Alpha use cases that you have identified.
+
+Then visit [Google Cloud IoT services](https://cloud.google.com/solutions/iot-overview)
+Also, watch this video  for some ideas about 4 different ways of implementing the same features. There are many other resources on Google IoT you may want to explore, feel free to do some explorations.
+Pick one IoT application feature and try your best to describe the steps according to your understanding of Google IoT platform. Later during the semester, you will be working on an IoT project, so this is a good time to start understanding the process. If you are familiar with any other IoT cloud platform (e.g., AWS or IBM’s) you can focus on those platforms. The purpose is to describe a simple IoT application’s feature using an activity diagram.
+
+
+|Term               |  Description
+|-------------------|----------------------------------
+|Process modeling   |  General definitions: documenting and modeling the steps requirement a given task Information systems contexts: modeling steps required to   complete a task using the automated system some steps are completed by 
+|Swim lane          |  Shows a specific entities/module that 
+|Action (activity), decision nodes, fork, join,…|Different activity diagram symbols that can enable modeling of different process structures, e.g., if-then, parallelization
 
 
