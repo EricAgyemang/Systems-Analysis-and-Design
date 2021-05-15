@@ -50,3 +50,33 @@ Pick one IoT application feature and try your best to describe the steps accordi
 |Action (activity), decision nodes, fork, join,…|Different activity diagram symbols that can enable modeling of different process structures, e.g., if-then, parallelization
 
 
+
+# Lab 4
+# Designing Relational Database on Google Cloud MySQL
+Relational databases store data in tables and show relationships among different parts of data with Foreign Keys.
+
+1.	Visit [Cloud SQL](https://cloud.google.com/sql)
+2.	Create an instance of MySQL > name it432 – you must always protect your data but for this lab exercise you can go with no password. It takes a few seconds to create the instance.
+3.	Go to Databases tab on the left bar > Create Database > name it lab5
+4.	Click the Cloud Shell icon ( ) in the upper right corner.
+5.	Use the following as examples for creating tables and setting primary keys; a quick guide can be found [here](https://cloud.google.com/sql/docs/mysql/quickstart)
+6.	Follow these steps to create a table:
+a.	gcloud sql connect it432 --user=root
+b.	USE lab5;
+c.	CREATE TABLE users (userID INT AUTO_INCREMENT NOT NULL, userName VARCHAR (255), PRIMARY KEY (userID));
+d.	CREATE TABLE models(modelID INT AUTO_INCREMENT NOT NULL, modelTitle VARCHAR(255),creatorID INT NOT NULL,  CONSTRAINT creatorFK  FOREIGN KEY (creatorID) REFERENCES users(userID),PRIMARY KEY (modelID));
+e.	For more examples see this [quick guide](https://cloud.google.com/spanner/docs/foreign-keys/how-to)
+f.	Depending on the MySQL version that you choose you can use the MySQL documentations as well to get help for completing your Lab 5. 
+
+The simple exercise above corresponds to the domain model diagram.  Create the corresponding relational Database schema.
+
+|Term               |  Description
+|-------------------|----------------------------------
+|Relational Databases  |  GClassic databases that organize data in tables and connect tables with foreign keys. Tables are 2-dimensional data structures.
+|Primary key         |  SOne or more attribute that together they identify one and only one row in a table. For instance, your student ID number identifies only you, in other words, the value of ID occurs only once in one row of the Students table.  
+|Action (activity), decision nodes, fork, join,…|Different activity diagram symbols that can enable modeling of different process structures, e.g., if-then, parallelization
+|Foreign key |Primary key of one tables that sits in another table to connect the second table to the first
+
+
+
+
