@@ -16,18 +16,17 @@ class	             |  A category of things that the system keeps track of
  object            |	Instances of classes   
                    |
 -------------------|------------------------------------                 
- associations	     |  Relationship among instances of classes – only relationship that          
-                   |  the systems keeps track of, those within the scope of the system   
+ associations	     |  Relationship among instances of classes – only relationship that the systems keeps track of, those within the scope of the system   
                    |
 -------------------|------------------------------------                   
- multiplicity      |  The number of instances of a relationship that instances of the    
-                   |  class on either side of the relationship can be involved in  
+ multiplicity      |  The number of instances of a relationship that instances of the class on either side of the relationship can be involved in    
+                   |  
                    |
 -------------------|------------------------------------------------------                   
-Multiplicity       |  Does having an instance of this relationship required for             
-constraints        |  objects on either side? 
-                   |  Is there an upper limit to the number of instances of this            
-                   |  relationship for objects on either side?
+Multiplicity constraints       |  Does having an instance of this relationship required for objects on either side?  Is there an upper limit to the number of instances of this relationship for objects on either side?             
+       |  
+                   |           
+                   |  
 -------------------|-------------------------------------------------------                   
  attributes	       |  A set of features that describe the class
                    |  Giving value to the attributes defines an instance of the class                
