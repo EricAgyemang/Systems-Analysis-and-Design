@@ -31,7 +31,7 @@ constraints        |  objects on either side?
 -------------------|-------------------------------------------------------                   
  attributes	       |  A set of features that describe the class
                    |  Giving value to the attributes defines an instance of the class                
-                   |   or an object
+                   |  or an object
                    |
                    |
 
