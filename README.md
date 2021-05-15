@@ -18,7 +18,11 @@ Pick Semantis or any other experiment; play with it for a few minutes, then thin
 | attributes	     |  A set of features that describe the class Giving value to the attributes defines an instance of the class or an object  
                 
                     
-
+# Lab 2
+For today: use the [Colab](https://colab.research.google.com/_
+Recommendation for future: download and install Anaconda, use Spyder.
+Pick 8-10 concepts that we have learned in the course so far. Connect them with links, labels links to
+describe the nature of the connection.
 
 
 
