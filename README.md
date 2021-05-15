@@ -12,7 +12,6 @@ Term               |  Description
 -------------------|----------------------------------
 class	             |  A category of things that the system keeps track of 
                    |
--------------------|------------------------------------
  object            |	Instances of classes   
                    |
 -------------------|------------------------------------                 
