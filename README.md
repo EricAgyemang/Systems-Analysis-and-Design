@@ -72,7 +72,7 @@ The simple exercise above corresponds to the domain model diagram.  Create the c
 
 |Term               |  Description
 |-------------------|----------------------------------
-|Relational Databases  |  GClassic databases that organize data in tables and connect tables with foreign keys. Tables are 2-dimensional data structures.
+|Relational Databases  |  Classic databases that organize data in tables and connect tables with foreign keys. Tables are 2-dimensional data structures.
 |Primary key         |  SOne or more attribute that together they identify one and only one row in a table. For instance, your student ID number identifies only you, in other words, the value of ID occurs only once in one row of the Students table.  
 |Action (activity), decision nodes, fork, join,…|Different activity diagram symbols that can enable modeling of different process structures, e.g., if-then, parallelization
 |Foreign key |Primary key of one tables that sits in another table to connect the second table to the first
