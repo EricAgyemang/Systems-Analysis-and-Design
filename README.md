@@ -5,7 +5,7 @@
 In this lab you practice create a first draft of domain model class diagram.
 A domain model class diagram shows things that your system will track of in order to function.
 
-You start by accessing: [AI](https://experiments.withgoogle.com/collection/ai)
+You start by accessing: [AI](https://experiments.withgoogle.com/collection/ai).
 Pick Semantis or any other experiment; play with it for a few minutes, then think backwards to identify things you’re working with that they system is keeping track of.
 
 |Term               |  Description
