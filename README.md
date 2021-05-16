@@ -1,5 +1,5 @@
 # Systems-Analysis-and-Design-Files (IT 432, ISU)
-# Lab and Projects works.
+# Lab and Project works.
 # Lab 1
 # Iteration 1: Domain Model Class Diagram
 In this lab you practice create a first draft of domain model class diagram.
